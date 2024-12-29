@@ -1,0 +1,26 @@
+{
+  "title": "MIRA Empowering Future with Innovative Solutions!",
+  "subtitle": "A Gateway to Digital Solutions",
+  "number": {
+    "value": "14",
+    "label": "Years of Digital Solutions Experience"
+  },
+  "items": [
+    {
+      "title": "Our Expertise",
+      "text": "Embedded Systems Development: Reliable and efficient embedded solutions, customized to your requirements. Hardware and Software Integration: Seamless connection of hardware and software for optimal system performance. PCB Design: High-speed, analog, and simple PCB designs, precisely and professionally executed. AI-based Quality Control: Use of AI tools to monitor performance and ensure the highest development quality."
+    },
+    {
+      "title": "Our 3-Step Solution",
+      "text": "<strong>Step 1: Analysis and Consultation:</strong/> We analyze your needs and recommend optimal embedded system and software solutions.<br /> <strong>Step 2: Development and Implementation:</strong/> In phase two, we develop and integrate customized solutions, including firmware, IoT, and automotive software, ensuring efficiency and security.<br /><strong>Step 3: Testing, Support, and Optimization:</strong/> We test for reliability, provide ongoing support, and optimize systems to keep them secure and competitive."
+    },
+    {
+      "title": "Our Quality Assurance in Development",
+      "text": "Automated Testing: Regular unit and integration tests for error-free functionality.\nCode Reviews: Thorough review by experienced developers.\nPerformance Monitoring: Continuous analysis and optimization of system performance.\nCustomer Feedback: Close collaboration for the continuous improvement of our solutions.",
+      "button": {
+        "label": "More About Us",
+        "link": "/about"
+      }
+    }
+  ]
+}

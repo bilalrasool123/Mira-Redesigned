@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "video": "/video/embedded-engineering-1.mp4",
+      "svg": true,
+      "title": "Innovative software services powering industries from automotive to healthcare",
+      "text": "We support you in your embedded system and software development, seamlessly absorbing the peaks in your workload.",
+      "button": {
+        "label": "About Us",
+        "link": "/about"
+      }
+    }
+  ]
+}

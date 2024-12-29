@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": "web-development",
+      "image": "/assets/images/service/web.png",
+      "title": "Web Development",
+      "text": "Build an attractive website packed with modern features. Our web developers master the craft of designing, building, and maintaining e-commerce websites and web-based applications built on modern tech stacks.",
+      "link": "service-details"
+    },
+    {
+      "id": "mobile-app-developement",
+      "image": "/assets/images/service/app.png",
+      "title": "Mobile App Development",
+      "text": "Mobile apps that run across different platforms and varying screen sizes. Be it games, e-commerce apps or educational apps, our team is ready to give you a comprehensive solution to stand tall in sheer competition.",
+      "link": "service-details"
+    },
+
+    {
+      "id": "maintenance-and-support",
+      "image": "/assets/images/service/support.png",
+      "title": "Maintenance and Support",
+      "text": "Robust maintenance and support services allow the software, apps, products, and websites to work efficiently, flawlessly and evolve with time. Get timely updates, fix bugs, and address issues that affect your workflow.",
+      "link": "/contact-us"
+    },
+
+    {
+      "id": "qa-and-testing",
+      "image": "/assets/images/service/test.png",
+      "title": "QA and Testing",
+      "text": "A robust QA and testing service lies at the core of successful applications and satisfied users. Using both manual and automated scripts, our team ensures that the application is free from errors and runs according to the user requirements.",
+      "link": "/contact-us"
+    },
+    {
+      "id": "custom-software-solutions",
+      "image": "/assets/images/service/custom.png",
+      "title": "Custom Software Solutions",
+      "text": "Off-the-shelf not fitting your requirements? Our custom software solutions incorporate all enterprise, gaming, and e-commerce applications that offer flexibility to do your tasks in your own way and increase efficiency.",
+      "link": "service-details"
+    }
+  ]
+}
