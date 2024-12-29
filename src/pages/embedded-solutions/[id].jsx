@@ -11,7 +11,7 @@ import {
   getSortedServicesData,
 } from "@/src/lib/embedded-services";
 
-const ServiceDetail = ({ serviceDetail, postData, services }) => {
+const ServiceDetail = ({ postData, services }) => {
   let prev_id,
     next_id,
     prev_key,
@@ -274,7 +274,10 @@ const ServiceDetail = ({ serviceDetail, postData, services }) => {
                   </span>
                 </Link>
               )}
-              <Link href="/embedded-solutions" className="page-navigation__posts">
+              <Link
+                href="/embedded-solutions"
+                className="page-navigation__posts"
+              >
                 <i className="fas fa-th" />
               </Link>
               {next_id != 0 && next_id != undefined && (
@@ -306,14 +309,14 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const serviceDetail = Data.items.find((item) => item.id === params.id);
+  // const serviceDetail = Data.items.find((item) => item.id === params.id);
 
   const postData = await getServiceData(params.id);
   const allServices = getSortedServicesData();
 
   return {
     props: {
-      serviceDetail,
+      //  serviceDetail,
       postData,
       services: allServices,
     },

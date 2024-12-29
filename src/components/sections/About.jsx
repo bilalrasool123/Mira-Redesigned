@@ -1,3 +1,4 @@
+
 import { useTranslate } from "@/src/contexts/TranslateContext";
 import Data from "@data/sections/about.json";
 import Link from "next/link";
@@ -33,7 +34,7 @@ const AboutSection = () => {
                 {Data.items.map((item, key) => (
                   <div
                     key={`about-item-${key}`}
-                    className="col-xs-12 col-sm-12 col-md-4 col-lg-4 flex flex-col items-center  border-2 border-black rounded-xl transform transition-all duration-700 hover:bg-[#007aff] hover:text-white hover:scale-105 overflow-hidden mx-2  cursor-pointer"
+                    className="col-xs-12 col-sm-12 col-md-4 col-lg-4 flex flex-col items-center  border-2 border-black rounded-xl transform transition-all duration-700 hover:bg-[#0d6efd] hover:text-white hover:scale-105 overflow-hidden mx-2  cursor-pointer"
                     style={{ marginTop: "12px" }}
                   >
                     {/* Card Content */}

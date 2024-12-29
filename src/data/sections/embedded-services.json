@@ -15,25 +15,11 @@
       "link": "service-details"
     },
     {
-      "id": "mobile-app-development",
-      "image": "/assets/images/service/coding.png",
-      "title": "Mobile App Development",
-      "text": "We develop software applications for mobile devices such as smartphones and tablets.",
+      "id": "Internet-of-Things",
+      "image": "/assets/images/service/cloud.png",
+      "title": "Internet of Things",
+      "text": "IoT connects devices and systems, enabling seamless data exchange. It helps businesses optimize operations, make data-driven decisions, and drive innovation.",
       "link": "service-details"
-    },
-    {
-      "id": "hardware-and-firmware-dev",
-      "image": "/assets/images/service/hosting.png",
-      "title": "Hardware and Firmware development",
-      "text": "We develop and maintain hardware and software used in electronic devices.",
-      "link": "service-details"
-    },
-    {
-      "id": "end-to-end-product-dev",
-      "image": "/assets/images/service/idea.png",
-      "title": "End-to-End Product Development",
-      "text": "We develop products for you from conception to market launch.",
-      "link": "/contact-us"
     },
     {
       "id": "machine-learning",
