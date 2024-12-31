@@ -86,7 +86,7 @@ const Footer2 = () => {
                         <span className="onovo-lnk">{t("Digital Solutions")}</span>
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="/embedded-projects">
                         <span className="onovo-lnk">{t("Embedded Projects")}</span>
                       </Link>
@@ -95,7 +95,7 @@ const Footer2 = () => {
                       <Link href="/digital-projects">
                         <span className="onovo-lnk">{t("Digital Projects")}</span>
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link href="/contact">
                         <span className="onovo-lnk">{t("Contact Us")}</span>

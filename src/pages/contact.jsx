@@ -320,6 +320,7 @@ const Contact = () => {
                               onChange={handleChange}
                               onBlur={handleBlur}
                               value={t(values.message)}
+                              className="pl-7 pt-2"
                             />
                           </p>
                         </div>

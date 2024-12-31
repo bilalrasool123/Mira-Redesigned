@@ -1,13 +1,13 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import tEn from "../../src/locales/en/translation.json";
-import tNl from "../../src/locales/nl/translation.json";
+import tNl from "../../src/locales/de/translation.json";
 
 const resources = {
   en: {
     translation: tEn,
   },
-  nl: {
+  de: {
     translation: tNl,
   },
 };
@@ -15,6 +15,7 @@ const resources = {
 i18n
   .use(initReactI18next) // passes i18n down to react-i18next
   .init({
+    returnObjects: true,
     resources,
     lng: "en",
 

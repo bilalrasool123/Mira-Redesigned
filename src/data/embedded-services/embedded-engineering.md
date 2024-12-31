@@ -46,22 +46,73 @@ accordion:
 additional:
   enabled: 1
   content: "
-    <h3>Highest Expectations</h3>
-		<p>Our embedded engineering team meets the highest expectations by delivering reliable and high-performance systems tailored to your needs.</p>
+  <style>
+    h1{
+    font-size : 26px
+    }
+  </style>
+    <h1><b>Our Core Industries</b></h1>
 		<ul>
       <li>
-         High speed processing
+        <strong>Automotive Industry:</strong/> Driver assistance systems (ADAS), ECU development
       </li>
       <li>
-      Energy efficient solutions
+        <strong>Industrial Automation:</strong/> Smart factory solutions, IoT integration
+       </li>
+       <li>
+       <strong> Consumer Electronics:</strong/> Smart home devices, wearable technologies
       </li>
-      <li>
-      Advanced security meaures
+       <li>
+        <strong> Medical Technology:</strong/> Patient monitoring systems, diagnostic devices
+      </li>
+       <li>
+      <strong> Telecommunications:</strong/> Network hardware, IoT connectivity
       </li>
 		</ul>
+     <style>
+    h2{
+    font-size : 26px
+    }
+  </style>
+  <br/>
+    <h2><b>Embedded Software Development</b>
+</h2>
+		<ul>
+      <li>
+Development of real-time operating systems (RTOS)
+      </li>
+      <li>
+Firmware programming in C, C++, and Python
+       </li>
+       <li>
+Integration with cloud platforms for IoT devices
+      </li>
+       <li>
+Optimization of systems for performance and energy efficiency
+      </li>
+      
+		</ul>
+  <br/>
+    <h2><b> Hardware Design and Development</b>
+
+
+</h2>
+		<ul>
+      <li>
+PCB layout design and prototyping      </li>
+      <li>
+Power management systems
+       </li>
+       <li>
+Custom hardware solutions for industry-specific requirements
+      </li>
+       <li>
+Integration of sensors and peripheral devices
+      </li>
+      
+		</ul>
+
   "
 ---
 
-### Introduction
-
-Our embedded engineering team is dedicated to creating innovative and reliable solutions for a wide range of applications. With extensive expertise in designing, developing, and deploying embedded systems, we ensure high performance and seamless integration for industries such as automotive, medical, industrial automation, and consumer electronics.
+At Mira Elektronik Entwicklung, we specialize in providing cutting-edge embedded engineering solutions that meet the needs of various industries. With an experienced team of engineers and a passion for innovation, we develop embedded systems that enhance efficiency, reliability, and performance.

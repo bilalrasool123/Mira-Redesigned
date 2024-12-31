@@ -2,10 +2,12 @@ import Head from 'next/head';
 import Link from "next/link";
 import appData from "@data/app.json";
 import { useRouter } from 'next/router';
+import { useTranslate } from "@/src/contexts/TranslateContext";
 
-const PageBanner = ({ pageTitle, pageDesc }) => {
+const 	PageBanner = ({ pageTitle, pageDesc }) => {
   const headTitle = `${appData.settings.siteName} - ${pageTitle}`;
   const { asPath } = useRouter();
+  const { t } = useTranslate(); // Get the translation function
 
   return (
     <>
@@ -29,7 +31,7 @@ const PageBanner = ({ pageTitle, pageDesc }) => {
 					<div className="onovo-breadcrums">
 						<ul>
 							<li>
-								<Link href="/">Home</Link>
+								<Link href="/">{t('Home')}</Link>
 							</li>
 							{asPath.indexOf('/blog/') != -1 &&
 							<li>

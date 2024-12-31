@@ -24,14 +24,24 @@ accordion:
 
 additional:
   enabled: 1
-  content: "<h3>Highest Expectations</h3>
-		        <p>Our battery management systems are engineered to enhance the performance, longevity, and safety of your batteries.</p> 
+  content: "
+  <style>
+   h1{
+    font-size : 26px
+    }
+  </style>
+  <h1><b>Our Expertise in Battery Management Systems and Hardware</b> </h1>
+  <p>Our solutions combine advanced software algorithms with precise hardware design to ensure optimal performance, safety, and reliability for Battery Management Systems (BMS).</p>
 		<ul>
       <li>
-      Robust protections against overcharging
+      <b> State of Charge (SOC):</b>
+   <p>Precise monitoring of the charge state to maximize battery performance and efficient energy usage.</p>
       </li>
       <li>
-      Maximum energy usage
+      <b>Maximum energy usage:</b>
+      <p>
+      Detailed analysis of the battery's health status for early fault detection and prolonging battery life.
+      </P>
       </li>
       <li>
       Meeting industry standards
@@ -39,7 +49,5 @@ additional:
 		</ul>
   "
 ---
-
-### Introduction
 
 Our battery management systems are designed to maximize the performance, longevity, and safety of your batteries. Leveraging advanced technologies and innovative engineering, we develop comprehensive solutions that monitor and control battery operations in real-time.

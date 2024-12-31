@@ -10,7 +10,7 @@ const Header2 = ({ darkHeader, cartButton }) => {
 
   const languages = [
     { code: "en", label: "English" },
-    { code: "nl", label: "German" },
+    { code: "de", label: "German" },
   ];
 
   useEffect(() => {
@@ -23,7 +23,7 @@ const Header2 = ({ darkHeader, cartButton }) => {
   };
 
   const toggleLanguage = () => {
-    const newLanguage = language === "en" ? "nl" : "en";
+    const newLanguage = language === "en" ? "de" : "en";
     setSelectedLanguage(newLanguage);
     handleTranslate(newLanguage);
   };

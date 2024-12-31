@@ -1462,8 +1462,8 @@ a.onovo-btn.btn--large,
   color: #000;
   font-size: 18px;
   font-weight: 700;
-  height: 100px;
-  line-height: 100px;
+  height: 70px;
+  line-height: 70px;
   border-radius: 100px;
   -webkit-border-radius: 100px;
 }
@@ -2893,6 +2893,36 @@ a.onovo-menu-btn,
 
 .onovo-menu {
   padding-left: 80px;
+}
+
+.content-container{
+  margin-bottom: 2rem;
+}
+
+.content-container h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.content-container ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.content-container ol {
+  list-style-type: decimal;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.content-container ol li::marker {
+  font-weight: bold;
+}
+
+.content-container li {
+  margin-bottom: 0.25rem;
 }
 
 .onovo-menu ul {
@@ -5851,7 +5881,7 @@ ul.onovo-footer-menu li {
 }
 
 .onovo-cta-social .desc ul li a {
-  min-width: 284px;
+  min-width: 234px;
 }
 
 @media (max-width: 1024px) {
@@ -6411,7 +6441,7 @@ ul.onovo-footer-menu li {
 .onovo-form-box {
   position: relative;
   background: #000;
-  padding: 70px;
+  padding: 10%;
 }
 
 .onovo-form-box::before {

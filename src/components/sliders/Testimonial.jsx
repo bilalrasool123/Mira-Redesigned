@@ -83,7 +83,7 @@ const TestimonialSlider = () => {
                   </Swiper>
 
                   {/* navs */}
-                  <div className="js-reviews-carousel-navs">
+                  <div className="relative js-reviews-carousel-navs">
                     <div className="onovo-prev js-reviews-carousel-prev onovo-hover-2">
                       <i />
                     </div>

@@ -5,13 +5,21 @@ import Link from "next/link";
 import appData from "@data/app.json";
 import { Formik } from "formik";
 import Data from "@data/sections/embedded-services.json";
-import {
-  getAllServicesIds,
-  getServiceData,
-  getSortedServicesData,
-} from "@/src/lib/embedded-services";
+import { useTranslation } from "next-i18next"; // Import translation hook
+import { useTranslate } from "@/src/contexts/TranslateContext";
+import i18n from "i18next";
 
-const ServiceDetail = ({ postData, services }) => {
+
+
+
+const ServiceDetail = () => {
+
+    const { t } = useTranslate(); // Get the translation function
+
+  const services = i18n.t("embedded_solutions.items", { returnObjects: true });
+  const postData = services[1];
+
+//   console.log(services)
   let prev_id,
     next_id,
     prev_key,
@@ -47,15 +55,19 @@ const ServiceDetail = ({ postData, services }) => {
                 <img src={postData.image} alt={postData.title} />
               </div>
 
-              {postData.contentHtml != "" && (
-                <div className="onovo-text">
+              <div className="content-container">
+                <p>{postData.introduction}</p>
+              </div>
+
+              {postData.additional.content != "" && (
+                <div className="content-container">
                   <div
-                    dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+                    dangerouslySetInnerHTML={{ __html: postData.additional.content }}
                   />
                 </div>
               )}
 
-              {typeof postData.additional != "undefined" && (
+              {/* {typeof postData.additional != "undefined" && (
                 <>
                   {postData.additional.enabled == 1 && (
                     <div className="onovo-text gap-top-50">
@@ -67,7 +79,7 @@ const ServiceDetail = ({ postData, services }) => {
                     </div>
                   )}
                 </>
-              )}
+              )} */}
             </div>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
               {/* Service menu */}
@@ -76,16 +88,16 @@ const ServiceDetail = ({ postData, services }) => {
                   <h5 className="title">
                     <span data-splitting data-onovo-scroll>
                       {" "}
-                      Services List{" "}
+                      {t('Services list')}{" "}
                     </span>
                   </h5>
                   <div className="list">
                     <ul>
-                      {Data.items.map((item, key) => (
+                      {services.map((item, key) => (
                         <li key={`services-item-${key}`}>
                           <Link
                             className="onovo-lnk"
-                            href={`/services/${item.id}`}
+                            href={`/embedded-solutions/${item.id}`}
                           >
                             <span data-splitting data-onovo-scroll>
                               {item.title}
@@ -100,8 +112,8 @@ const ServiceDetail = ({ postData, services }) => {
 
               {/* Onovo Form */}
               <div className="onovo-form-box onovo-text-white">
-                <h5>Send Us A Message</h5>
-                <p>Feel some love, to see what we can do...t!</p>
+                <h3 className="text-[20px] mb-3">{t('Send Us A Message')}</h3>
+                <p className="mb-1">{t('Feel some love, to see what we can do...!')}</p>
                 <Formik
                   initialValues={{ email: "", name: "", tel: "", message: "" }}
                   validate={(values) => {
@@ -181,7 +193,7 @@ const ServiceDetail = ({ postData, services }) => {
                           <p>
                             <input
                               size="40"
-                              placeholder="Full Name"
+                              placeholder={t("Full Name")}
                               type="text"
                               name="name"
                               required="required"
@@ -195,7 +207,7 @@ const ServiceDetail = ({ postData, services }) => {
                           <p>
                             <input
                               size="40"
-                              placeholder="Email Address"
+                              placeholder={t("Email Address")}
                               type="email"
                               name="email"
                               required="required"
@@ -209,7 +221,7 @@ const ServiceDetail = ({ postData, services }) => {
                           <p>
                             <input
                               size="40"
-                              placeholder="Phone"
+                              placeholder={t("Phone Number")}
                               type="tel"
                               name="tel"
                               required="required"
@@ -224,22 +236,23 @@ const ServiceDetail = ({ postData, services }) => {
                             <textarea
                               cols="40"
                               rows="10"
-                              placeholder="Message"
+                              placeholder={t("Message")}
                               name="message"
                               required="required"
                               onChange={handleChange}
                               onBlur={handleBlur}
                               value={values.message}
+                              className="p-4 text-black"
                             />
                           </p>
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                          <p>
+                          <p className="flex justify-center mt-2">
                             <button
                               type="submit"
                               className="onovo-btn onovo-hover-btn btn--active"
                             >
-                              <span>Send Message</span>
+                              <span>{t('Send Message')}</span>
                             </button>
                           </p>
                         </div>
@@ -299,26 +312,3 @@ const ServiceDetail = ({ postData, services }) => {
 };
 export default ServiceDetail;
 
-export async function getStaticPaths() {
-  const paths = getAllServicesIds();
-
-  return {
-    paths,
-    fallback: false,
-  };
-}
-
-export async function getStaticProps({ params }) {
-  // const serviceDetail = Data.items.find((item) => item.id === params.id);
-
-  const postData = await getServiceData(params.id);
-  const allServices = getSortedServicesData();
-
-  return {
-    props: {
-      //  serviceDetail,
-      postData,
-      services: allServices,
-    },
-  };
-}

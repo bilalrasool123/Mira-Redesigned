@@ -18,13 +18,15 @@ img.mfp-img {
 }
 @keyframes marquee {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 
 .animate-marquee {
   animation: marquee 20s linear infinite;
+  width: max-content; /* Ensures the content doesn't wrap */
 }
+
