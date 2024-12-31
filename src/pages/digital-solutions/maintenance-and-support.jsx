@@ -67,6 +67,10 @@ const ServiceDetail = () => {
                 </div>
               )}
 
+              <div className="content-container">
+                <p>{postData.end}</p>
+              </div>
+
               {/* {typeof postData.additional != "undefined" && (
                 <>
                   {postData.additional.enabled == 1 && (

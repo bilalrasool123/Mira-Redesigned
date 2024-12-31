@@ -65,7 +65,11 @@ const ServiceDetail = () => {
                     dangerouslySetInnerHTML={{ __html: postData.additional.content }}
                   />
                 </div>
-              )}
+               )}
+
+              <div className="content-container">
+                <p>{postData.end}</p>
+              </div>
 
               {/* {typeof postData.additional != "undefined" && (
                 <>

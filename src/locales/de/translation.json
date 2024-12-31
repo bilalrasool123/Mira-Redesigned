@@ -409,68 +409,74 @@
     ]
   },
 
-  "digital_solutions": {
-    "items": [
-      {
-        "id": "web-development",
-        "image": "/images/web.jpeg",
-        "icon": "/images/serv-icon6.png",
-        "title": "Webentwicklung",
-        "short": "Erstellen Sie eine attraktive Website, die mit modernen Funktionen ausgestattet ist. Unsere Webentwickler beherrschen die Kunst des Entwerfens, Bauens und Wartens von E-Commerce-Websites und webbasierten Anwendungen auf modernen Tech-Stacks.",
-        "additional": {
-          "enabled": 1,
-          "content": "<h3>Höchste Erwartungen</h3>\n<p>Unsere höchsten Erwartungen bestehen darin, Websites zu liefern, die nicht nur großartig aussehen, sondern auch einwandfrei funktionieren. Erwartungen beinhalten:</p>\n<ul>\n  <li>\n    Pixelgenaue Designs\n  </li>\n  <li>\n    Schnelle Ladezeiten\n  </li>\n  <li>\n    Cross-Browser-Kompatibilität\n  </li>\n</ul>"
-        },
-        "introduction": "Unsere Webentwicklungsdienste decken ein breites Spektrum ab, von einfachen statischen Seiten bis hin zu dynamischen Webanwendungen. Wir priorisieren sauberen Code, responsive Designs und optimale Leistung, um ein nahtloses Benutzererlebnis zu gewährleisten."
+"digital_solutions": {
+  "items": [
+    {
+      "id": "web-development",
+      "image": "/images/web.jpeg",
+      "icon": "/images/serv-icon6.png",
+      "title": "Webentwicklung",
+      "short": "Erstellen Sie eine attraktive Website, die mit modernen Funktionen ausgestattet ist. Unsere Webentwickler beherrschen die Kunst des Designs, des Aufbaus und der Wartung von E-Commerce-Websites und webbasierten Anwendungen, die auf modernen Technologiestacks basieren.",
+      "additional": {
+        "enabled": 1,
+        "content": "<style>\n  h1 {\n    font-size: 26px;\n    margin-bottom: 8px;\n  }\n</style>\n\n<h1><b>Unsere Kernservices</b></h1>\n<ul>\n  <li>\n    <strong>Individuelle Webanwendungen:</strong> Maßgeschneiderte Lösungen für einzigartige Geschäftsbedürfnisse.\n  </li>\n  <li>\n    <strong>E-Commerce-Plattformen:</strong> Optimierte Online-Shopping-Erlebnisse.\n  </li>\n  <li>\n    <strong>Content-Management-Systeme (CMS):</strong> Einfach zu verwaltende Websites mit intuitiven Oberflächen.\n  </li>\n  <li>\n    <strong>Responsive Design:</strong> Nahtlose Leistung auf verschiedenen Geräten.\n  </li>\n  <li>\n    <strong>API-Integration:</strong> Reibungslose Anbindung an Drittanbieter-Dienste.\n  </li>\n</ul>\n\n<h1><b>Front-End-Entwicklung</b></h1>\n<ul>\n  <li>\n    Moderne Frameworks wie <strong>React.js, Vue.js und Next.js</strong>\n  </li>\n  <li>\n    Pixelgenaue UI-Designs mit <strong>HTML5, CSS3 und JavaScript</strong>\n  </li>\n  <li>\n    Fokus auf Geschwindigkeit, Reaktionsfähigkeit und Zugänglichkeit.\n  </li>\n</ul>\n\n<h1><b>Back-End-Entwicklung</b></h1>\n<ul>\n  <li>\n    Skalierbare Architekturen mit <strong>Node.js</strong> und <strong>Python</strong>\n  </li>\n  <li>\n    Effizientes Datenbankmanagement mit <strong>MongoDB</strong> und <strong>PostgreSQL</strong>\n  </li>\n  <li>\n    Sichere Authentifizierung und Datenschutz.\n  </li>\n</ul>\n\n<h1><b>UI/UX Design</b></h1>\n<ul>\n  <li>Benutzerzentrierte Designs für eine verbesserte Benutzerfreundlichkeit.</li>\n  <li>Prototyping und intuitive Navigation.</li>\n</ul>"
       },
-      {
-        "id": "mobile-app-developement",
-        "image": "/images/mobile.jpeg",
-        "icon": "/images/serv-icon1.png",
-        "title": "Mobile App-Entwicklung",
-        "short": "Mobile Apps, die auf verschiedenen Plattformen und Bildschirmgrößen laufen. Egal ob Spiele, E-Commerce-Apps oder Bildungs-Apps, unser Team ist bereit, Ihnen eine umfassende Lösung zu bieten, um in der Konkurrenz hervorzuheben.",
-        "additional": {
-          "enabled": 1,
-          "content": "<h3>Höchste Erwartungen</h3>\n<p>Erwarten Sie nichts weniger als Apps, die neue Maßstäbe in Benutzerfreundlichkeit und Funktionalität setzen. Unsere höchsten Erwartungen beinhalten:</p>\n<ul>\n  <li>\n    Reibungslose Navigation und Interaktionen\n  </li>\n  <li>\n    Sichere Datenverarbeitung\n  </li>\n  <li>\n    Regelmäßige Updates und Optimierungen\n  </li>\n</ul>"
-        },
-        "introduction": "Unser Team für mobile App-Entwicklung spezialisiert sich auf die Erstellung von intuitiven und funktionsreichen Apps für iOS- und Android-Plattformen. Wir legen besonderen Wert auf Benutzerfreundlichkeit, Skalierbarkeit und Sicherheit, um Apps zu entwickeln, die von den Nutzern geschätzt werden."
+      "end": "Bei Mira Elektronik Entwicklung kombinieren wir Kreativität, technisches Fachwissen und strategisches Denken, um digitale Produkte zu entwickeln, die Wachstum fördern und unseren Kunden außergewöhnlichen Wert bieten.",
+      "introduction": "Bei Mira Elektronik Entwicklung bieten wir innovative Webentwicklungslösungen, die Unternehmen in einer digital-first Welt stärken. Mit einem kompetenten Team und einem Fokus auf moderne Technologien erstellen wir sichere, skalierbare und benutzerfreundliche Webanwendungen."
+    },
+    {
+      "id": "mobile-app-developement",
+      "image": "/images/mobile.jpeg",
+      "icon": "/images/serv-icon1.png",
+      "title": "Mobile App Entwicklung",
+      "short": "Mobile Apps, die auf verschiedenen Plattformen und Bildschirmgrößen laufen. Ob Spiele, E-Commerce-Apps oder Bildungs-Apps, unser Team ist bereit, Ihnen eine umfassende Lösung zu bieten, um in der Konkurrenz hervorzuheben.",
+      "additional": {
+        "enabled": 1,
+        "content": "<style>\n  h1 {\n    font-size: 26px;\n    margin-bottom: 8px;\n  }\n</style>\n\n<h1><b>Unsere Kernservices</b></h1>\n<ul>\n  <li>\n    <strong>Native App Entwicklung:</strong> Plattform-spezifische Apps für <strong>iOS</strong> und <strong>Android</strong> mit <strong>Swift</strong> und <strong>Kotlin</strong>.\n  </li>\n  <li>\n    <strong>Cross-Platform Apps:</strong> Effiziente Entwicklung mit Frameworks wie <strong>Flutter</strong> und <strong>React Native</strong>.\n  </li>\n  <li>\n    <strong>UI/UX Design:</strong> Intuitive Schnittstellen, die auf Benutzerzufriedenheit optimiert sind.\n  </li>\n  <li>\n    <strong>App-Integration:</strong> Nahtlose Anbindung an Drittanbieter-APIs und Backend-Systeme.\n  </li>\n  <li>\n    <strong>Wartung & Support:</strong> Kontinuierliche Updates und Leistungsverbesserungen.\n  </li>\n</ul>\n\n<h1><b>iOS & Android Entwicklung</b></h1>\n<ul>\n  <li>Maßgeschneiderte Anwendungen für plattformspezifische Funktionen.</li>\n  <li>Optimierte Leistung und Sicherheitsfunktionen.</li>\n  <li>Compliance mit App-Store-Richtlinien.</li>\n</ul>\n\n<h1><b>Cross-Platform Entwicklung</b></h1>\n<ul>\n  <li>Ein Codebase für beide iOS- und Android-Plattformen.</li>\n  <li>Schnellere Entwicklung und reduzierte Kosten.</li>\n  <li>Konsequentes Benutzererlebnis auf allen Geräten.</li>\n</ul>\n\n<h1><b>Backend & API Integration</b></h1>\n<ul>\n  <li>Zuverlässige Backend-Architektur mit <strong>Node.js</strong> und <strong>Python</strong>.</li>\n  <li>Echtzeit-Daten-Synchronisierung und Cloud-Integration.</li>\n  <li>Sichere Benutzer-Authentifizierung und Datenverschlüsselung.</li>\n</ul>"
       },
-      {
-        "id": "maintenance-and-support",
-        "image": "/images/support.jpeg",
-        "icon": "/images/serv-icon4.png",
-        "title": "Wartung und Support",
-        "short": "Robuste Wartungs- und Supportdienste ermöglichen es Software, Apps, Produkten und Websites, effizient und fehlerfrei zu arbeiten und sich mit der Zeit weiterzuentwickeln. Erhalten Sie rechtzeitige Updates, beheben Sie Bugs und adressieren Sie Probleme, die Ihre Arbeitsabläufe beeinflussen.",
-        "additional": {
-          "enabled": 1,
-          "content": "<h3>Höchste Erwartungen</h3>\n<p>Unsere höchsten Erwartungen bestehen darin, proaktive Wartung und reaktionsschnellen Support zu bieten, der Ihre Systeme reibungslos am Laufen hält. Erwartungen beinhalten:</p>\n<ul>\n  <li>\n    24/7 Überwachung und Vorfallreaktion\n  </li>\n  <li>\n    Regelmäßige Software-Updates und Patches\n  </li>\n  <li>\n    Performance-Tuning und Optimierungsstrategien\n  </li>\n</ul>"
-        },
-        "introduction": "Unsere Wartungs- und Supportdienste stellen sicher, dass Ihre digitalen Assets betriebsbereit, sicher und auf dem neuesten Stand bleiben. Wir bieten proaktive Überwachung, regelmäßige Updates und reaktionsschnellen Support, um Risiken zu mindern und die Leistung zu optimieren."
+      "end": "Bei Mira Elektronik Entwicklung entwickeln wir nicht nur mobile Apps – wir schaffen digitale Tools, die die Konnektivität verbessern, die Produktivität steigern und außergewöhnliche Benutzererfahrungen liefern. Ob es sich um eine Startup-Idee oder eine Unternehmenslösung handelt, wir sind hier, um Ihre Vision in die Realität umzusetzen.",
+      "introduction": "Bei Mira Elektronik Entwicklung kombinieren wir Kreativität, technisches Fachwissen und strategisches Denken, um digitale Produkte zu entwickeln, die Wachstum fördern und unseren Kunden außergewöhnlichen Wert bieten."
+    },
+    {
+      "id": "maintenance-and-support",
+      "image": "/images/support.jpeg",
+      "icon": "/images/serv-icon4.png",
+      "title": "Wartung und Support",
+      "short": "Robuste Wartungs- und Support-Dienste sorgen dafür, dass Software, Apps, Produkte und Websites effizient, fehlerfrei und mit der Zeit weiterentwickelt werden. Erhalten Sie rechtzeitige Updates, beheben Sie Fehler und kümmern Sie sich um Probleme, die Ihren Arbeitsablauf beeinträchtigen.",
+      "additional": {
+        "enabled": 1,
+        "content": "<style>\n  h1 {\n    font-size: 26px;\n    margin-bottom: 8px;\n  }\n</style>\n\n<h1><b>Unsere Kernservices</b></h1>\n<ul>\n  <li>\n    <strong>Fehlerbehebung:</strong> Schnelle Lösung von Fehlern und Leistungsproblemen.\n  </li>\n  <li>\n    <strong>Leistungsoptimierung:</strong> Kontinuierliche Überwachung und Verbesserung der Systemleistung.\n  </li>\n  <li>\n    <strong>Sicherheitsupdates:</strong> Regelmäßige Patches zum Schutz vor Sicherheitslücken.\n  </li>\n  <li>\n    <strong>Funktionsverbesserungen:</strong> Hinzufügen neuer Funktionen basierend auf sich entwickelnden Geschäftsanforderungen.\n  </li>\n  <li>\n    <strong>Systemüberwachung:</strong> Proaktive Überwachung zur Identifikation und Lösung potenzieller Probleme.\n  </li>\n</ul>\n\n<h1><b>Präventive Wartung</b></h1>\n<ul>\n  <li>Regelmäßige Gesundheitschecks und Audits.</li>\n  <li>Identifikation und Lösung potenzieller Probleme, bevor sie eskalieren.</li>\n  <li>Leistungsoptimierung für maximale Effizienz.</li>\n</ul>\n\n<h1><b>Korrektive Wartung</b></h1>\n<ul>\n  <li>Schnelle Fehlerbehebung und Problemlösung.</li>\n  <li>Systemwiederherstellung und Fehlerbehebung.</li>\n  <li>Datenbackup und -wiederherstellung.</li>\n</ul>\n\n<h1><b>Adaptive Wartung</b></h1>\n<ul>\n  <li>Updates zur Unterstützung neuer Betriebssysteme, Geräte oder Plattformen.</li>\n  <li>Integration mit neuen Technologien.</li>\n  <li>Compliance mit Branchenstandards und Vorschriften.</li>\n</ul>"
       },
-      {
-        "id": "qa-and-testing",
-        "image": "/assets/services/QA.jpg",
-        "icon": "/images/serv-icon4.png",
-        "title": "QA und Tests",
-        "short": "Ein robustes QA- und Testverfahren bildet den Kern erfolgreicher Anwendungen und zufriedener Nutzer. Mit manuellen und automatisierten Skripten stellt unser Team sicher, dass die Anwendung fehlerfrei läuft und den Benutzeranforderungen entspricht.",
-        "additional": {
-          "enabled": 1,
-          "content": "<h3>Höchste Erwartungen</h3>\n<p>Unsere höchsten Erwartungen bestehen darin, proaktive Wartung und reaktionsschnellen Support zu bieten, der Ihre Systeme reibungslos am Laufen hält. Erwartungen beinhalten:</p>\n<ul>\n  <li>\n    24/7 Überwachung und Vorfallreaktion\n  </li>\n  <li>\n    Regelmäßige Software-Updates und Patches\n  </li>\n  <li>\n    Performance-Tuning und Optimierungsstrategien\n  </li>\n</ul>"
-        },
-        "introduction": "Unsere QA- und Testdienste garantieren die Qualität, Zuverlässigkeit und Leistung Ihrer digitalen Produkte. Wir führen rigorose Tests durch, einschließlich funktionaler, benutzerfreundlicher und Sicherheitsprüfungen, um Probleme zu identifizieren und zu beheben, bevor sie Ihre Benutzer beeinträchtigen, und gewährleisten ein nahtloses Erlebnis auf allen Plattformen."
+      "end": "Bei Mira Elektronik Entwicklung sorgen unsere Wartungs- und Support-Dienste für langfristige Zuverlässigkeit, Stabilität und Skalierbarkeit Ihrer Softwareprodukte. Wir sind bestrebt, Ihre Systeme reibungslos am Laufen zu halten, damit Ihr Unternehmen ohne Unterbrechungen gedeihen kann.",
+      "introduction": "Bei Mira Elektronik Entwicklung verstehen wir, dass der Erfolg eines Softwareprodukts über den Start hinausgeht. Unsere Wartungs- und Support-Dienste stellen sicher, dass Ihre Systeme sicher, aktuell und voll funktionsfähig bleiben, damit Sie sich auf Ihre Kernziele konzentrieren können."
+    },
+    {
+      "id": "qa-and-testing",
+      "image": "/assets/services/QA.jpg",
+      "icon": "/images/serv-icon4.png",
+      "title": "QA und Testing",
+      "short": "Ein robustes QA- und Testing-Service ist das Herzstück erfolgreicher Anwendungen und zufriedener Nutzer. Mit manuellen und automatisierten Skripten stellt unser Team sicher, dass die Anwendung fehlerfrei läuft und den Benutzeranforderungen entspricht.",
+      "additional": {
+        "enabled": 1,
+        "content": "<style>\n  h1 {\n    font-size: 26px;\n    margin-bottom: 8px;\n  }\n</style>\n\n<h1><b>Unsere Kern-Testing-Dienste</b></h1>\n<ul>\n  <li>\n    <strong>Automatisiertes Testing:</strong> Schnelle, wiederholbare Tests mit Tools wie <strong>Selenium</strong>, <strong>Appium</strong> und <strong>JUnit</strong>.\n  </li>\n  <li>\n    <strong>Unit-Testing:</strong> Validierung einzelner Komponenten für präzise Funktionalität.\n  </li>\n  <li>\n    <strong>Integrationstests:</strong> Sicherstellung der nahtlosen Interaktion zwischen Systemmodulen.\n  </li>\n  <li>\n    <strong>Black-Box-Testing:</strong> Bewertung der Software aus der Perspektive des Endbenutzers ohne internes Wissen.\n  </li>\n  <li>\n    <strong>Regressionstests:</strong> Überprüfung der Stabilität nach Updates oder Änderungen.\n  </li>\n  <li>\n    <strong>Leistungstests:</strong> Optimierung der Geschwindigkeit und der Lasttoleranz.\n  </li>\n  <li>\n    <strong>Sicherheitstests:</strong> Identifikation von Schwachstellen und Gewährleistung der Datensicherheit.\n  </li>\n</ul>\n\n<h1><b>Wichtige Vorteile:</b></h1>\n<ul>\n  <li>Schnellere Release-Zyklen durch automatisierte Workflows.</li>\n  <li>Frühe Fehlererkennung, wodurch langfristige Kosten gesenkt werden.</li>\n  <li>Verbesserte Produktzuverlässigkeit und Benutzerzufriedenheit.</li>\n</ul>"
       },
-      {
-        "id": "custom-software-solutions",
-        "image": "/images/custom.jpeg",
-        "icon": "/images/serv-icon4.png",
-        "title": "Maßgeschneiderte Softwarelösungen",
-        "short": "Passt das Standardangebot nicht zu Ihren Anforderungen? Unsere maßgeschneiderten Softwarelösungen umfassen alle Unternehmens-, Spiele- und E-Commerce-Anwendungen, die Flexibilität bieten, Ihre Aufgaben auf eigene Weise zu erledigen und die Effizienz zu steigern.",
-        "additional": {
-          "enabled": 1,
-          "content": "<h3>Höchste Erwartungen</h3>\n<p>Maschinelles Lernen stellt den Höhepunkt der datengetriebenen Intelligenz dar und ermöglicht es Systemen, große Datenmengen zu analysieren, wertvolle Erkenntnisse zu gewinnen und autonome Entscheidungen zu treffen. </p>\n<ul>\n  <li>Hohe Genauigkeitsniveaus</li>\n  <li>Transparenz und Interpretierbarkeit von maschinellen Lernmodellen</li>\n  <li>Wahrung ethischer Standards</li>\n</ul>"
-        },
-        "introduction": "Unsere maßgeschneiderten Softwarelösungen sind darauf ausgelegt, das Kundenerlebnis zu verbessern und das Engagement zu steigern. Wir entwickeln personalisierte Portale, CRM-Systeme und Analysetools, die es Unternehmen ermöglichen, effektiv mit ihren Kunden in Kontakt zu treten."
-      }
-    ]
-  }
+      "end": "Bei Mira Elektronik Entwicklung sorgt unsere Teststrategie dafür, dass Ihre Software den höchsten Qualitäts- und Leistungsstandards entspricht und gleichzeitig die Markteinführungszeit verkürzt wird.",
+      "introduction": "Bei Mira Elektronik Entwicklung gewährleisten wir die Softwarezuverlässigkeit durch einen robusten QA- & automatisierten Testprozess. Unser Ansatz kombiniert moderne Tools und Testmethoden, um fehlerfreie, sichere und leistungsstarke Anwendungen zu liefern."
+    },
+    {
+      "id": "custom-software-solutions",
+      "image": "/images/custom.jpeg",
+      "icon": "/images/serv-icon4.png",
+      "title": "Maßgeschneiderte Softwarelösungen",
+      "short": "Standardlösungen passen nicht zu Ihren Anforderungen? Unsere maßgeschneiderten Softwarelösungen integrieren alle Unternehmens-, Gaming- und E-Commerce-Anwendungen, die Flexibilität bieten, um Ihre Aufgaben auf eigene Weise zu erledigen und die Effizienz zu steigern.",
+      "additional": {
+        "enabled": 1,
+        "content": "<style>\n  h1 {\n    font-size: 26px;\n    margin-bottom: 8px;\n  }\n</style>\n\n<h1><b>Unsere Kern-Dienste</b></h1>\n<ul>\n  <li>\n    <strong>Maßgeschneiderte Anwendungsentwicklung:</strong> Lösungen, die von Grund auf entwickelt werden, um spezifische Geschäftsbedürfnisse zu erfüllen.\n  </li>\n  <li>\n    <strong>Unternehmenssoftwarelösungen:</strong> Robuste Systeme zur nahtlosen Automatisierung und Verwaltung von Arbeitsabläufen.\n  </li>\n  <li>\n    <strong>Cloud-basierte Lösungen:</strong> Skalierbare und sichere Cloud-Infrastrukturen für Geschäftsoperationen.\n  </li>\n  <li>\n    <strong>Integrationsdienste:</strong> Nahtlose Verbindung mit Drittanbieter-Tools und APIs.\n  </li>\n  <li>\n    <strong>Modernisierung von Altsystemen:</strong> Aktualisierung veralteter Systeme für bessere Leistung und Kompatibilität.\n  </li>\n</ul>\n\n<h1><b>Wichtige Merkmale:</b></h1>\n<ul>\n  <li>Skalierbare Architekturen für zukünftiges Wachstum.</li>\n  <li>Cross-Plattform-Kompatibilität.</li>\n  <li>Starker Fokus auf Sicherheit und Datenintegrität.</li>\n  <li>Agiler Entwicklungsprozess für schnellere Lieferung.</li>\n</ul>"
+      },
+      "end": "Bei Mira Elektronik Entwicklung erstellen wir nicht nur Software – wir schaffen leistungsstarke Tools, die Innovationen vorantreiben, die Effizienz verbessern und messbare Ergebnisse für Ihr Unternehmen liefern.",
+      "introduction": "Bei Mira Elektronik Entwicklung spezialisieren wir uns auf die Entwicklung maßgeschneiderter Softwarelösungen, die auf einzigartige Geschäftsherausforderungen abgestimmt sind. Unser Ansatz kombiniert technische Expertise, innovatives Denken und ein tiefes Verständnis der branchenspezifischen Anforderungen, um skalierbare und effiziente Softwaresysteme zu liefern."
+    }
+  ]
+}
+
 }
