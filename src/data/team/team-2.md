@@ -5,7 +5,7 @@ name: Selma Yüceer
 role: Human Resources Manager
 first_letter: S
 social:
-  - link: https://www.linkedin.com/in/abbas-naqvi-2bb470101/
+  - link: https://www.linkedin.com/company/mira-elektronikentwicklung/posts/?feedView=all
     icon: fab fa-linkedin-in
     title: Linkedin
 

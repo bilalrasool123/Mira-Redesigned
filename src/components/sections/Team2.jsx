@@ -45,9 +45,9 @@ const Team2Section = ({ team }) => {
                       data-onovo-overlay
                       data-onovo-scroll
                     >
-                      <a href={`/team/${item.id}`}>
+                      {/* <a href={`/team/${item.id}`}> */}
                         <img src={item.image} alt={t(item.name)} />
-                      </a>
+                      {/* </a> */}
                       <div className="onovo-social-2">
                         <ul>
                           {item.social.map((social, social_key) => (
@@ -67,11 +67,11 @@ const Team2Section = ({ team }) => {
                     </div>
                     <div className="desc">
                       <h5 className="title">
-                        <a href={`/team/${item.id}`} className="onovo-lnk">
+                        {/* <a href={`/team/${item.id}`} className="onovo-lnk"> */}
                           <span data-splitting data-onovo-scroll>
                             {t(item.name)}
                           </span>
-                        </a>
+                        {/* </a> */}
                       </h5>
                       <div className="onovo-subtitle-1">
                         <span data-splitting data-onovo-scroll>
@@ -85,7 +85,7 @@ const Team2Section = ({ team }) => {
             ))}
 
             {/* Button */}
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 align-center align-self-center">
+            {/* <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 align-center align-self-center">
               <Link
                 className="onovo-btn-circle onovo-hover-2"
                 href={Data.button.link}
@@ -94,7 +94,7 @@ const Team2Section = ({ team }) => {
                   <span />
                 </i>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
