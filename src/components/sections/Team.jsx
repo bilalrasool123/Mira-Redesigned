@@ -37,11 +37,11 @@ const TeamSection = ({ team }) => {
                   <div className="onovo-team-item onovo-hover-3">
                     <div className="desc">
                       <h5 className="title">
-                        <Link href={`/team/${item.id}`} className="onovo-lnk">
+                        {/* <Link href={`/team/${item.id}`} className="onovo-lnk"> */}
                           <span data-splitting data-onovo-scroll>
                             {t(item.name)}
                           </span>
-                        </Link>
+                        {/* </Link> */}
                       </h5>
                       <div className="onovo-subtitle-1">
                         <span data-splitting data-onovo-scroll>
@@ -68,7 +68,7 @@ const TeamSection = ({ team }) => {
                       </div>
                     </div>
                     <div className="image ">
-                      <Link href={`/team/${item.id}`}>
+                      {/* <Link href={`/team/${item.id}`}> */}
                         <img
                           decoding="async"
                           src={item.image}
@@ -76,7 +76,7 @@ const TeamSection = ({ team }) => {
                           height="530"
                           alt={t(item.name)}
                         />
-                      </Link>
+                      {/* </Link> */}
                     </div>
                     <div className="num onovo-text-white">
                       <span>{t(item.first_letter)}</span>

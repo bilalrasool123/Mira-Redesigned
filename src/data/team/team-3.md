@@ -1,7 +1,7 @@
 ---
 #preview details
 image: /assets/team/Irtaza.png
-name: Irtaza Ali
+name: Irtaza Madad
 role: Technical Project Manager
 first_letter: I
 social:
