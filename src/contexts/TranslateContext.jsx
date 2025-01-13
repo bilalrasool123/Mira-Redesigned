@@ -5,7 +5,7 @@ const TranslateContext = createContext();
 
 function TranslateProvider({ children }) {
   const { t, i18n } = useTranslation();
-  const [language, setLanguage] = useState("en");
+  const [language, setLanguage] = useState("de");
 
   useEffect(() => {
     // Ensure this code only runs in the browser

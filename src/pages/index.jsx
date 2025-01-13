@@ -19,6 +19,7 @@ import CountersSection from "@components/sections/Counters";
 import CallToActionSection from "@components/sections/CallToAction";
 import LatestPostsSection from "@components/sections/LatestPosts";
 import PartnersSection from "@components/sections/Partners";
+import CookieBanner from "../components/CookieBanner";
 
 const HeroSection = dynamic(() => import("@components/sliders/Hero2"), {
   ssr: false,
@@ -54,6 +55,7 @@ const Home1 = (props) => {
         <CallToActionSection />
         {/* <LatestPostsSection posts={props.posts} /> */}
         <PartnersSection />
+        <CookieBanner />
       </>
     </Layouts>
   );

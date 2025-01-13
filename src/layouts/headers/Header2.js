@@ -9,8 +9,8 @@ const Header2 = ({ darkHeader, cartButton }) => {
   const [selectedLanguage, setSelectedLanguage] = useState(language);
 
   const languages = [
+    { code: "de", label: "Deutsche" },
     { code: "en", label: "English" },
-    { code: "de", label: "German" },
   ];
 
   useEffect(() => {
@@ -23,7 +23,7 @@ const Header2 = ({ darkHeader, cartButton }) => {
   };
 
   const toggleLanguage = () => {
-    const newLanguage = language === "en" ? "de" : "en";
+    const newLanguage = language === "de" ? "de" : "en";
     setSelectedLanguage(newLanguage);
     handleTranslate(newLanguage);
   };
@@ -248,8 +248,8 @@ const Header2 = ({ darkHeader, cartButton }) => {
                   </div>
                 </div>
               </div>
-              <div className="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-2 flex items-center justify-start space-x-2 lg:block hidden mt-[0.8rem] ">
-                <div className="flex items-center space-x-2 ">
+              <div className="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-2 flex items-center justify-start lg:block hidden mt-[0.8rem] ">
+                <div className="flex items-center  ">
                   <img
                     src="/assets/lang.png"
                     alt="flag"
@@ -258,7 +258,7 @@ const Header2 = ({ darkHeader, cartButton }) => {
                   <select
                     value={selectedLanguage}
                     onChange={handleChange}
-                    className="language-select"
+                    className="language-select w-[37%] mx-1"
                   >
                     {languages.map((language) => (
                       <option key={language.code} value={language.code}>
