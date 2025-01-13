@@ -12,7 +12,7 @@ const Imprint = (props) => {
       <div className="container" style={{ padding: "20px" }}>
         <div className="content">
           <h3>{t("Postal address")}</h3>
-          <p>{t("Mira Elektronikentwicklung UG (limited liability)")}</p>
+          <p>{t("Mira Elektronikentwicklung GmbH")}</p>
           <p>{t("Waitzstraße 92")}</p>
           <p>{t("24118 Kiel")}</p>
           <p>{t("Email: raza.abbas@mira-ee.de")}</p>
