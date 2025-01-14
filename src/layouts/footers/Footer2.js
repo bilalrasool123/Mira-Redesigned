@@ -62,7 +62,7 @@ const Footer2 = () => {
                 {/* Description */}
                 <div className="onovo-text">
                   {t(
-                    "From the moment our company was founded, we have helped our clients find exceptional solutions "
+                    "From the moment our company was founded, we have helped our clients find exceptional solutions"
                   )}
                   <strong>{t("for their businesses")}</strong>.
                 </div>

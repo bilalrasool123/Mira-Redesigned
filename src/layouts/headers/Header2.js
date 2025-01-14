@@ -258,7 +258,7 @@ const Header2 = ({ darkHeader, cartButton }) => {
                   <select
                     value={selectedLanguage}
                     onChange={handleChange}
-                    className="language-select w-[37%] mx-1"
+                    className="language-select lg:w-[180px] xl:w-[120px] mx-1"
                   >
                     {languages.map((language) => (
                       <option key={language.code} value={language.code}>
