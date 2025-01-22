@@ -9,7 +9,7 @@ const Header2 = ({ darkHeader, cartButton }) => {
   const [selectedLanguage, setSelectedLanguage] = useState(language);
 
   const languages = [
-    { code: "de", label: "Deutsche" },
+    { code: "de", label: "Deutsch" },
     { code: "en", label: "English" },
   ];
 
@@ -258,10 +258,10 @@ const Header2 = ({ darkHeader, cartButton }) => {
                   <select
                     value={selectedLanguage}
                     onChange={handleChange}
-                    className="language-select lg:w-[180px] xl:w-[120px] mx-1"
+                    className="language-select lg:w-[100px] xl:w-[100px] mx-1"
                   >
                     {languages.map((language) => (
-                      <option key={language.code} value={language.code}>
+                      <option key={language.code} value={language.code} className="flex justify-center">
                         {language.label}
                       </option>
                     ))}

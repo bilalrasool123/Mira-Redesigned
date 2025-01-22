@@ -77,12 +77,12 @@ const Footer2 = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/embedded-services">
+                      <Link href="/embedded-solutions">
                         <span className="onovo-lnk">{t("Embedded Solutions")}</span>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/digital-services">
+                      <Link href="/digital-solutions">
                         <span className="onovo-lnk">{t("Digital Solutions")}</span>
                       </Link>
                     </li>
