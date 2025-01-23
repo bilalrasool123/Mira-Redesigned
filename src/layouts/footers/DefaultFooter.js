@@ -36,7 +36,7 @@ const DefaultFooter = () => {
                 <div className="onovo-text onovo-text-white">
                   <h5>{t("Get in Touch")}</h5>
                   <p style={{ opacity: "0.6" }}>
-                    {t("Waitzstraße 92 24118 Kiel")}
+                    {t("Fleethörn 7 , 24103 Kiel")}
                   </p>
                   <p style={{ opacity: "0.6" }}>
                     <a

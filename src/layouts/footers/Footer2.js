@@ -117,7 +117,7 @@ const Footer2 = () => {
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-2">
                 {/* Description */}
                 <div className="onovo-text">
-                  {t("Waitzstraße 92 24118 Kiel")}
+                  {t("Fleethörn 7 , 24103 Kiel")}
                   <p>
                     <a
                       className="onovo-lnk"

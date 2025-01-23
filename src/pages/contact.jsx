@@ -389,7 +389,7 @@ const Contact = () => {
                   </li>
                   <li>
                     <h5>{t("Kiel")}</h5>
-                    <div>{t("Waitzstraße 92 24118 Kiel")}</div>
+                    <div>{t("Fleethörn 7 , 24103 Kiel")}</div>
                   </li>
                 </ul>
               </div>
