@@ -111,6 +111,11 @@ const Footer2 = () => {
                         <span className="onovo-lnk">{t("Privacy Policy")}</span>
                       </Link>
                     </li>
+                    <li>
+                      <Link href="/AGBs">
+                        <span className="onovo-lnk">{t("AGBs")}</span>
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>

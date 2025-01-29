@@ -351,7 +351,79 @@
   "All texts, graphics and images" : "All texts, graphics and images on the homepage www.mira-ee.com are subject to the copyright of Raza Abbas and may be protected by third parties. No part of this publication may be reproduced in any form and processed, duplicated or distributed using electronic systems without the written permission of Raza Abbas. Raza Abbas accepts no liability for the data security of any information sent via the website or by e-mail.",
   "As a content provider" : "As a content provider, the operator of the homepage is responsible under general law for the \"own content\" made available for use on www.mira-ee.com in accordance with Section 7 Paragraph 1 of the Telemedia Act. Cross-references (\"links\") to content made available by other providers must be distinguished from this own content. Through the cross-reference, the operator of the homepage makes \"external content\" available for use, which is marked accordingly with the note \"[external]\". This external content was checked when the link was first set to determine whether it could trigger possible civil or criminal liability. However, it cannot be ruled out that this content could potentially violate laws, and the operator does not take responsibility for external content after the link has been made.",
   "The operator of the homepage": "The operator of the homepage has the copyright or the corresponding rights of use for all images, films and texts published in the web shop, emails or in catalogues. Use, in particular the reproduction, editing, translation, storage, processing or reproduction of the images, films and texts is not permitted without the express written consent of the provider or the original owner of the property rights.",
- 
+  "AGBs": "GTCs",
+  "General terms and conditions": "General terms and conditions",
+
+  "AGB_title": "General Terms and Conditions (GTC) of Mira Elektronikentwicklung GmbH",
+
+  "AGB_1_title": "Scope",
+  "AGB_1_text_1": "These General Terms and Conditions (GTC) apply to all business relationships between Mira Elektronikentwicklung GmbH (hereinafter referred to as 'Mira') and its customers.",
+  "AGB_1_text_2": "Deviating conditions of the customer are not recognized unless Mira expressly agrees to their validity in writing.",
+  "AGB_1_text_3": "Changes to these GTC will be communicated to the customer in writing or electronically. They are deemed approved if the customer does not object in writing within four weeks.",
+
+  "AGB_2_title": "Subject of the Contract",
+  "AGB_2_text_1": "The company engages in the development, trade, operation, and maintenance of hardware and software products of all kinds, as well as the provision of related services.",
+  "AGB_2_text_2": "The exact scope of services results from the respective offers, contract documents, or service descriptions.",
+  "AGB_2_text_3": "",
+
+  "AGB_3_title": "Conclusion of Contract",
+  "AGB_3_text_1": "A contract is concluded as soon as Mira confirms the customer's order or assignment in writing or electronically.",
+  "AGB_3_text_2": "Offers from Mira are non-binding and subject to change unless expressly designated as binding.",
+  "AGB_3_text_3": "",
+
+  "AGB_4_title": "Obligations of the Customer",
+  "AGB_4_text_1": "The customer is obliged to provide all necessary information correctly for contract fulfillment.",
+  "AGB_4_text_2": "The customer ensures that the provided data comply with legal requirements.",
+  "AGB_4_text_3": "The customer is responsible for the security and protection of their access data to the systems provided by Mira.",
+
+  "AGB_5_title": "Prices and Payment Terms",
+  "AGB_5_text_1": "The prices are according to the current price list or individual offer.",
+  "AGB_5_text_2": "All prices are exclusive of statutory VAT.",
+  "AGB_5_text_3": "Invoices are payable within 14 days of receipt without deduction.",
+
+  "AGB_6_title": "Performance Period and Delay",
+  "AGB_6_text_1": "Delivery and service deadlines are only binding if expressly agreed.",
+  "AGB_6_text_2": "In case of higher effort or unforeseeable events, the performance period is extended accordingly.",
+  "AGB_6_text_3": "If Mira is in delay, the customer must set a reasonable grace period.",
+
+  "AGB_7_title": "Warranty and Defect Claims",
+  "AGB_7_text_1": "The warranty period is twelve months from delivery unless longer periods are legally required.",
+  "AGB_7_text_2": "The customer must report defects in writing without delay.",
+  "AGB_7_text_3": "If a defect claim is justified, Mira has the right to rectify or replace the delivery.",
+
+  "AGB_8_title": "Liability",
+  "AGB_8_text_1": "Mira is only liable for damages in cases of intent or gross negligence.",
+  "AGB_8_text_2": "Liability for minor negligence is limited to foreseeable, contract-typical damages.",
+  "AGB_8_text_3": "Liability for indirect damages or lost profits is excluded.",
+
+  "AGB_9_title": "Data Protection",
+  "AGB_9_text_1": "Mira processes personal data in accordance with legal data protection regulations.",
+  "AGB_9_text_2": "More information on data processing can be found in Mira's privacy policy.",
+  "AGB_9_text_3": "",
+
+  "AGB_10_title": "Confidentiality",
+  "AGB_10_text_1": "Both parties agree to keep all confidential information of the other party secret.",
+  "AGB_10_text_2": "This obligation continues even after the contract ends.",
+  "AGB_10_text_3": "",
+
+  "AGB_11_title": "Contract Duration and Termination",
+  "AGB_11_text_1": "Contract duration and termination periods are defined in individual contracts.",
+  "AGB_11_text_2": "Termination must be in writing.",
+  "AGB_11_text_3": "",
+
+  "AGB_12_title": "Final Provisions",
+  "AGB_12_text_1": "German law applies, excluding the UN Convention on Contracts for the International Sale of Goods.",
+  "AGB_12_text_2": "Jurisdiction for disputes from this contract is Kiel, provided the customer is a merchant.",
+  "AGB_12_text_3": "If individual provisions of these GTC are invalid, the validity of the remaining provisions remains unaffected.",
+  
+  "footer_company": "Mira Elektronikentwicklung GmbH",
+  "footer_address": "Fleethörn 7, 24103 Kiel",
+  "footer_register": "Commercial Register: HRB 24555 KI",
+  "footer_website": "Website: www.mira-ee.com",
+  "footer_email": "Email: info@mira-ee.de",
+
+
+
 
   "embedded_solutions": {
     "items": [

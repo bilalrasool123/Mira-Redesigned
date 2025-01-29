@@ -353,7 +353,76 @@
   "All texts, graphics and images": "Alle Texte, Grafiken und Bilder auf der Homepage www.mira-ee.com unterliegen dem Urheberrecht von Raza Abbas und können durch Dritte geschützt sein. Kein Teil dieser Veröffentlichung darf in irgendeiner Form reproduziert, bearbeitet, vervielfältigt oder mit elektronischen Systemen verbreitet werden, ohne die schriftliche Erlaubnis von Raza Abbas. Raza Abbas übernimmt keine Haftung für die Datensicherheit von Informationen, die über die Website oder per E-Mail gesendet werden.",
   "As a content provider": "Als Inhaltsanbieter ist der Betreiber der Homepage nach allgemeinem Recht für die \"eigenen Inhalte\" verantwortlich, die auf www.mira-ee.com gemäß § 7 Absatz 1 des Telemediengesetzes zur Nutzung bereitgestellt werden. Querverweise (\"Links\") auf Inhalte, die von anderen Anbietern zur Verfügung gestellt werden, müssen von diesen eigenen Inhalten unterschieden werden. Durch den Querverweis stellt der Betreiber der Homepage \"fremde Inhalte\" zur Nutzung bereit, die entsprechend mit dem Hinweis \"[extern]\" gekennzeichnet sind. Diese fremden Inhalte wurden beim erstmaligen Setzen des Links daraufhin überprüft, ob sie mögliche zivil- oder strafrechtliche Verantwortlichkeiten auslösen könnten. Es kann jedoch nicht ausgeschlossen werden, dass diese Inhalte möglicherweise gegen Gesetze verstoßen, und der Betreiber übernimmt keine Verantwortung für fremde Inhalte, nachdem der Link gesetzt wurde.",  
   "The operator of the homepage": "Der Betreiber der Homepage hat das Urheberrecht oder die entsprechenden Nutzungsrechte für alle Bilder, Filme und Texte, die im Webshop, in E-Mails oder in Katalogen veröffentlicht sind. Die Nutzung, insbesondere die Vervielfältigung, Bearbeitung, Übersetzung, Speicherung, Verarbeitung oder Wiedergabe der Bilder, Filme und Texte, ist ohne ausdrückliche schriftliche Zustimmung des Anbieters oder des ursprünglichen Inhabers der Eigentumsrechte nicht gestattet.",
- 
+  "AGBs": "AGBs",
+  "General terms and conditions": "Allgemeine Geschäftsbedingungen",
+
+  "AGB_title": "Allgemeine Geschäftsbedingungen (AGB) der Mira Elektronikentwicklung GmbH",
+
+  "AGB_1_title": "Geltungsbereich",
+  "AGB_1_text_1": "Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für alle Geschäftsbeziehungen zwischen der Mira Elektronikentwicklung GmbH (nachfolgend 'Mira') und ihren Kunden.",
+  "AGB_1_text_2": "Abweichende Bedingungen des Kunden werden nicht anerkannt, es sei denn, Mira stimmt ihrer Geltung ausdrücklich schriftlich zu.",
+  "AGB_1_text_3": "Änderungen dieser AGB werden dem Kunden schriftlich oder elektronisch mitgeteilt. Sie gelten als genehmigt, wenn der Kunde nicht innerhalb von vier Wochen schriftlich widerspricht.",
+
+  "AGB_2_title": "Vertragsgegenstand",
+  "AGB_2_text_1": "Das Unternehmen befasst sich mit der Entwicklung, dem Handel, dem Betrieb und der Wartung von Hardware- und Softwareprodukten aller Art sowie der Erbringung damit verbundener Dienstleistungen.",
+  "AGB_2_text_2": "Der genaue Leistungsumfang ergibt sich aus den jeweiligen Angeboten, Vertragsunterlagen oder Leistungsbeschreibungen.",
+  "AGB_2_text_3": "",
+
+  "AGB_3_title": "Vertragsschluss",
+  "AGB_3_text_1": "Ein Vertrag kommt zustande, sobald Mira die Bestellung oder den Auftrag des Kunden schriftlich oder elektronisch bestätigt.",
+  "AGB_3_text_2": "Angebote von Mira sind freibleibend und unverbindlich, sofern sie nicht ausdrücklich als bindend gekennzeichnet sind.",
+  "AGB_3_text_3": "",
+
+  "AGB_4_title": "Pflichten des Kunden",
+  "AGB_4_text_1": "Der Kunde ist verpflichtet, alle erforderlichen Informationen korrekt zur Vertragserfüllung bereitzustellen.",
+  "AGB_4_text_2": "Der Kunde stellt sicher, dass die bereitgestellten Daten den gesetzlichen Anforderungen entsprechen.",
+  "AGB_4_text_3": "Der Kunde ist für die Sicherheit und den Schutz seiner Zugangsdaten zu den von Mira bereitgestellten Systemen verantwortlich.",
+
+  "AGB_5_title": "Preise und Zahlungsbedingungen",
+  "AGB_5_text_1": "Die Preise richten sich nach der aktuellen Preisliste oder dem individuellen Angebot.",
+  "AGB_5_text_2": "Alle Preise verstehen sich zuzüglich der gesetzlichen Mehrwertsteuer.",
+  "AGB_5_text_3": "Rechnungen sind innerhalb von 14 Tagen nach Erhalt ohne Abzug zahlbar.",
+
+  "AGB_6_title": "Leistungszeitraum und Verzögerung",
+  "AGB_6_text_1": "Liefer- und Leistungsfristen sind nur verbindlich, wenn sie ausdrücklich vereinbart wurden.",
+  "AGB_6_text_2": "Bei höherem Aufwand oder unvorhersehbaren Ereignissen verlängert sich die Leistungszeit entsprechend.",
+  "AGB_6_text_3": "Gerät Mira in Verzug, muss der Kunde eine angemessene Nachfrist setzen.",
+
+  "AGB_7_title": "Gewährleistung und Mängelansprüche",
+  "AGB_7_text_1": "Die Gewährleistungsfrist beträgt zwölf Monate ab Lieferung, sofern nicht gesetzlich längere Fristen vorgeschrieben sind.",
+  "AGB_7_text_2": "Der Kunde muss Mängel unverzüglich schriftlich melden.",
+  "AGB_7_text_3": "Bei berechtigter Mängelrüge hat Mira das Recht zur Nachbesserung oder Ersatzlieferung.",
+
+  "AGB_8_title": "Haftung",
+  "AGB_8_text_1": "Mira haftet nur für Schäden bei Vorsatz oder grober Fahrlässigkeit.",
+  "AGB_8_text_2": "Die Haftung für leichte Fahrlässigkeit ist auf vorhersehbare, vertragstypische Schäden beschränkt.",
+  "AGB_8_text_3": "Die Haftung für indirekte Schäden oder entgangenen Gewinn ist ausgeschlossen.",
+
+  "AGB_9_title": "Datenschutz",
+  "AGB_9_text_1": "Mira verarbeitet personenbezogene Daten gemäß den gesetzlichen Datenschutzvorschriften.",
+  "AGB_9_text_2": "Weitere Informationen zur Datenverarbeitung sind in der Datenschutzerklärung von Mira zu finden.",
+  "AGB_9_text_3": "",
+
+  "AGB_10_title": "Vertraulichkeit",
+  "AGB_10_text_1": "Beide Parteien verpflichten sich, alle vertraulichen Informationen der jeweils anderen Partei geheim zu halten.",
+  "AGB_10_text_2": "Diese Verpflichtung gilt auch nach Beendigung des Vertrags.",
+  "AGB_10_text_3": "",
+
+  "AGB_11_title": "Vertragsdauer und Kündigung",
+  "AGB_11_text_1": "Vertragsdauer und Kündigungsfristen sind in den individuellen Verträgen festgelegt.",
+  "AGB_11_text_2": "Eine Kündigung muss schriftlich erfolgen.",
+  "AGB_11_text_3": "",
+
+  "AGB_12_title": "Schlussbestimmungen",
+  "AGB_12_text_1": "Es gilt deutsches Recht unter Ausschluss des UN-Kaufrechts.",
+  "AGB_12_text_2": "Gerichtsstand für Streitigkeiten aus diesem Vertrag ist Kiel, sofern der Kunde Kaufmann ist.",
+  "AGB_12_text_3": "Sollten einzelne Bestimmungen dieser AGB unwirksam sein, bleibt die Gültigkeit der übrigen Bestimmungen unberührt.",
+
+  "footer_company": "Mira Elektronikentwicklung GmbH",
+  "footer_address": "Fleethörn 7, 24103 Kiel",
+  "footer_register": "Handelsregister: HRB 24555 KI",
+  "footer_website": "Website: www.mira-ee.com",
+  "footer_email": "E-Mail: info@mira-ee.de",
 
 
   "embedded_solutions": {
