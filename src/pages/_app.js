@@ -38,7 +38,6 @@ function MyApp({ Component, pageProps }) {
       window.removeEventListener("storage", checkConsent);
     };
   }, []);
-  console.log(consentGiven)
   return (
     <TranslateProvider>
       <Head>
