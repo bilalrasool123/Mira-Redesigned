@@ -18,8 +18,8 @@ function MyApp({ Component, pageProps }) {
   const [consentGiven, setConsentGiven] = useState(false);
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const consent = localStorage.getItem("userConsent");
-      if (consent === "granted") {
+      const consent = JSON.parse(localStorage.getItem("userConsent"));
+      if (consent && (consent.preferences || consent.statistics || consent.marketing)) {
         setConsentGiven(true);
       }
     }
