@@ -17,13 +17,28 @@ register();
 function MyApp({ Component, pageProps }) {
   const [consentGiven, setConsentGiven] = useState(false);
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      const consent = JSON.parse(localStorage.getItem("userConsent"));
-      if (consent && (consent.preferences || consent.statistics || consent.marketing)) {
-        setConsentGiven(true);
+    const checkConsent = () => {
+      if (typeof window !== "undefined") {
+        const consent = JSON.parse(localStorage.getItem("userConsent"));
+        if (consent && (consent.preferences || consent.statistics || consent.marketing)) {
+          setConsentGiven(true);
+        } else {
+          setConsentGiven(false);
+        }
       }
-    }
+    };
+
+    // Run check on initial load
+    checkConsent();
+
+    // Listen for consent changes (localStorage updates)
+    window.addEventListener("storage", checkConsent);
+
+    return () => {
+      window.removeEventListener("storage", checkConsent);
+    };
   }, []);
+  console.log(consentGiven)
   return (
     <TranslateProvider>
       <Head>
@@ -35,6 +50,7 @@ function MyApp({ Component, pageProps }) {
         {/* seo end */}
       </Head>
       {consentGiven && <GTM />}
+      {/* <GTM /> */}
       <Component {...pageProps} />
       <ConsentBanner />
     </TranslateProvider>

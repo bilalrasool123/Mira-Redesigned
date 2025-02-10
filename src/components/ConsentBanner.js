@@ -39,10 +39,11 @@ const ConsentBanner = () => {
 
   const handleAcceptSelection = () => {
     localStorage.setItem("userConsent", JSON.stringify(consent));
+    window.dispatchEvent(new Event("storage")); // Notify _app.js
     pushToDataLayer(consent);
     setShowBanner(false);
   };
-
+  
   const handleRefuseAll = () => {
     const refusedConsent = {
       preferences: false,
@@ -50,6 +51,7 @@ const ConsentBanner = () => {
       marketing: false,
     };
     localStorage.setItem("userConsent", JSON.stringify(refusedConsent));
+    window.dispatchEvent(new Event("storage")); // Notify _app.js
     pushToDataLayer(refusedConsent);
     setShowBanner(false);
   };
