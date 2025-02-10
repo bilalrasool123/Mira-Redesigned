@@ -55,7 +55,7 @@ const Home1 = (props) => {
         <CallToActionSection />
         {/* <LatestPostsSection posts={props.posts} /> */}
         <PartnersSection />
-        <CookieBanner />
+        {/* <CookieBanner /> */}
       </>
     </Layouts>
   );

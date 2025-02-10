@@ -424,6 +424,12 @@
   "footer_website": "Website: www.mira-ee.com",
   "footer_email": "E-Mail: info@mira-ee.de",
 
+  "banner_title": "Wir verwenden Cookies für ein besseres Erlebnis und Analysen. Wählen Sie Ihre Einstellungen:",
+  "banner_preferences": "Präferenzen",
+  "banner_statistics": "Statistiken",
+  "banner_marketing": "Marketing",
+  "banner_refuse_all": "Alle ablehnen",
+  "banner_accept_selection": "Auswahl akzeptieren",
 
   "embedded_solutions": {
     "items": [
