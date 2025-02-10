@@ -22,11 +22,16 @@ const ConsentBanner = () => {
 
   // Push consent preferences to GTM's dataLayer
   const pushToDataLayer = (updatedConsent) => {
-    if (typeof window !== "undefined" && window.dataLayer) {
+    if (typeof window !== "undefined") {
+      window.dataLayer = window.dataLayer || [];
+  
+      // Ensure the event is pushed separately
       window.dataLayer.push({
         event: "update_consent",
         consent: updatedConsent,
       });
+  
+      console.log("DataLayer Updated:", updatedConsent); // Debugging Log
     }
   };
 
