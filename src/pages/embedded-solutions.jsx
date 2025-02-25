@@ -50,7 +50,7 @@ const Emb_Services = (props) => {
                 key={`services-item-${key}`}
                 className="onovo-service-item-list"
               >
-                <Link href={`/services/${item.id}`}>
+                <Link href={`/embedded-solutions/${item.id}`}>
                   <div className="onovo-service-item-list-inner">
                     <div className="image onovo-hover-1">
                       <img src={item.image} alt={t(item.title)} />
