@@ -7,25 +7,26 @@ export default function EidPage() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    const fetchTcToken = async () => {
+    const fetchIntermediateUrl = async () => {
       try {
         const res = await axios.get("https://epass-backend.vercel.app/api/eid-tctoken");
-        const tcTokenURL = res.data.tcTokenURL;
+        const intermediateUrl = res.data.intermediateUrl;
 
-        if (!tcTokenURL || !tcTokenURL.includes("tcToken")) {
-          setError("Invalid tcTokenURL received.");
+        if (!intermediateUrl || !intermediateUrl.includes("/doEid?authid=")) {
+          setError("Invalid intermediate URL received.");
           return;
         }
 
-        const eidUrl = `eid://tcToken?url=${encodeURIComponent(tcTokenURL)}`;
+        // Use intermediate URL directly in QR code
+        const eidUrl = `eid://tcToken?url=${encodeURIComponent(intermediateUrl)}`;
         setQrValue(eidUrl);
       } catch (err) {
-        console.error("Error fetching tcTokenURL:", err);
-        setError("Failed to fetch tcTokenURL.");
+        console.error("Error fetching intermediate URL:", err);
+        setError("Failed to fetch intermediate URL.");
       }
     };
 
-    fetchTcToken();
+    fetchIntermediateUrl();
   }, []);
 
   return (
@@ -34,8 +35,6 @@ export default function EidPage() {
       <p>Scan this QR code using AusweisApp2 mobile:</p>
 
       {error && <p style={{ color: "red" }}>{error}</p>}
-
-      <img src="/eid.png"/>
 
       {qrValue ? (
         <QRCode value={qrValue} size={256} />
