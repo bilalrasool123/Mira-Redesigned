@@ -35,6 +35,8 @@ export default function EidPage() {
 
       {error && <p style={{ color: "red" }}>{error}</p>}
 
+      <img src="/eid.png"/>
+
       {qrValue ? (
         <QRCode value={qrValue} size={256} />
       ) : (
